@@ -14,6 +14,11 @@ NOTE:  RabbitMQ 2.x and RabbitMQ 3.x use different ports for the management
 interface. `master` is configured to use the RabbitMQ port by default (15672).
 If you are running RabbitMQ 2.x, use the `rabbitmq-2.x` branch.
 
+Note
+----
+This repository revert to be Nagios namespace instead of the Monitoring.
+In Debian Wheezy, the Monitoring namespace is not yet available.
+
 Status
 ------
 Currently we have the following checks:
@@ -79,3 +84,5 @@ Author
 ------
 
 James Casey <jamesc.000@gmail.com>
+barryib https://github.com/barryib - Forked from https://github.com/barryib/nagios-plugins-rabbitmq
+Domisys - https://github.com/Domisys
