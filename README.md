@@ -30,6 +30,10 @@ Currently we have the following checks:
   - Use the `/api/connections` API to gather details of connections used,
     their state and their throughput
 
+- check\_rabbitmq\_federation
+  - Use the `/api/federation-links` API to gather details of the federation
+    links and their status.
+
 - check\_rabbitmq\_objects
   - Use a variety of APIs to count instances of various objects on the
     server. These include vhosts, exchanges, bindings, queues and
